@@ -1,0 +1,36 @@
+/* CTL brand tokens – se ctl/brand-guidelines.md */
+:root {
+  /* Logo-palett (ctl_logosett.pdf) */
+  --ctl-blue-dark: #045373;
+  --ctl-blue-bright: #0F87B1;
+  --ctl-green: #608C16;
+  --ctl-lime: #91C11A;
+  --ctl-purple: #6643A4;
+  --ctl-grey: #868484;
+  --ctl-charcoal: #383435;
+  --ctl-black: #231F20;
+
+  /* Web (transformleadership.no) */
+  --ctl-navy: #152D3B;
+  --ctl-orange: #E99938;
+  --ctl-beige: #F2F0E8;
+  --ctl-headline-blue: #305B75;
+  --ctl-body-text: #333333;
+  --ctl-hero-light: #7DBCCA;
+  --ctl-hero-dark: #0D1F2A;
+
+  /* Dokument (Word-mal) */
+  --ctl-doc-heading: #0F4761;
+  --ctl-doc-bar-gray: #E8E8E8;
+  --ctl-doc-footer-square: #42668A;
+  --ctl-confidential: #E4001B;
+
+  /* Collective Navigator (collectivenavigator.eu) */
+  --cn-background: #F8F7F2;
+  --cn-navy: #294A6B;
+  --cn-marine: #1B3342;
+  --cn-orange: #E07B35;
+  --cn-hero-start: #1C3545;
+  --cn-hero-end: #76CFE9;
+  --cn-top-line: #557E85;
+}
