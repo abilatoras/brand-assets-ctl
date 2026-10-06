@@ -16,17 +16,20 @@ Skal brukes når materiell lages **på vegne av CTL** eller for Collective Navig
 
 ## Logo
 
-Logoene ligger i brand-repoet. **Repo-URL (fyll inn):** `https://github.com/<ORG>/<REPO>` → mappen `assets/logo/`.
+Logoene ligger i brand-repoet `https://github.com/abilatoras/brand-assets-ctl`, i mappen `assets/logo/`.
 
 Last ned med bash (raw.githubusercontent.com er tillatt):
 
 ```bash
 curl -sfL -o /tmp/ctl-logo.png \
-  "https://raw.githubusercontent.com/<ORG>/<REPO>/main/assets/logo/ctl-logo-farge.png" \
+  "https://raw.githubusercontent.com/abilatoras/brand-assets-ctl/main/assets/logo/ctl-logo-farge.png" \
   || echo "Logo ikke funnet i repo – bruker medfølgende logo"
 ```
 
 Send filen som tredje argument til scriptet (`node build_ctl_docx.js spec.json out.docx /tmp/ctl-logo.png`). Hvis nedlastingen feiler, brukes den medfølgende `assets/ctl-logo.png` (farge, horisontal, 1200 px bred, fra det offisielle logosettet).
+
+I HTML-artefakter, der bash ikke er tilgjengelig, kan logoen lenkes via jsDelivr:
+`https://cdn.jsdelivr.net/gh/abilatoras/brand-assets-ctl@main/assets/logo/ctl-logo-farge.png`
 
 Filer i repoet (`assets/logo/`): `ctl-logo-farge.png` (standard), `ctl-logo-gra.png`, `ctl-logo-sort.png`, tilsvarende `ctl-symbol-*.png`, og masterfilen `ctl_logosett.pdf` (vektor). Hvit variant for mørk bakgrunn mangler ennå.
 
